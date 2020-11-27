@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Delight</title>
+    <link rel="stylesheet" href="./css/style2.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap" rel="stylesheet">
+</head>
+
+<style>
+  body{background-image: url(images/bg.png); background-repeat: no-repeat; background-size: 100%; padding-top: -20px; background-attachment: fixed;}
+</style>
+
+<header>
+    <nav id="nav-header">
+      <div>
+        <a id="logo" class="logo" href="index.html"></a>
+        <a id="toggle" class="menu" href=""></a>
+      </div>
+      <div id="nav-background" class="nav-background">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="who.html">Who?</a></li>
+          <li><a href="album.html">Album</a></li>
+          <li><a href="title.html">Title</a></li>
+          <li><a href="track.html">Non-Title Tracks</a></li>
+        </ul>
+      </div>
+    </nav>
+</header>
+<body>
+    <div id="cursor-bg">&nbsp;</div>
+    <div id="progress"><span>&nbsp;</span></div>
+    <script type="text/javascript" src="./vendor/gsap/gsap.min.js"></script>
+    <script type="text/javascript" src="./js/cursor.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+
+    <article class="bg-img-area">
+        <div><img src="images/img-4.png"></div>
+    </article>
+
+    <article class="title-list">
+        <ul>
+          <li><h1><span>Title </span><a>Candy</a></h1></li>
+          <li><h3><span>Korean Lyrics by Kenzie<br>
+            Composed by Mike Daley / Mitchell Owens / DEEZ / Adrian McKinnon<br>
+            Arranged by Mike Daley / Mitchell Owens / DEEZ / 유영진<br></span>
+            <br>
+            타이틀 곡 ‘Candy'는 중독성 있는 아르페지오 신스 사운드 위로 물결치듯 전개되는 <br>
+            트렌디한 멜로디가 인상적인 퓨처리스틱 R&B 곡으로,<br>
+            히트 메이커 Kenzie, 인기 작곡가 DEEZ, 미국 유명 프로듀서 Mike Daley가 <br>
+            곡 작업에 참여해 완성도를 높였다. 
+            <br>
+            백현의 다채로운 매력을 여러 가지 맛의 캔디에 비유해 
+            <br>위트 있게 풀어낸 가사가 듣는 재미를 더한다.</h3></li>
+          <li><div><video width="1000" controls><source src="./media/Candy.mp4"></video></div></li>
+        </ul>
+          <!--<div><video width="720"><source src="./media/Candy.mp4"></video></div>-->
+    </article>
+    <!--
+    <section>
+      <div><video width="1000" controls><source src="./media/Candy.mp4"></video></div>
+    </section>
+    -->
+</body>
+</html>

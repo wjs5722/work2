@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Delight</title>
+    <link rel="stylesheet" href="./css/album.css" />
+    <link rel="stylesheet" href="./css/accordion.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap" rel="stylesheet">
+</head>
+
+<style>
+  body{background-image: url(images/bg2.png); background-repeat: no-repeat; background-size: 100%;}
+</style>
+
+<header>
+    <nav id="nav-header">
+      <div>
+        <a id="logo" class="logo" href="index.html"></a>
+        <a id="toggle" class="menu" href=""></a>
+      </div>
+      <div id="nav-background" class="nav-background">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="who.html">Who?</a></li>
+          <li><a href="album.html">Album</a></li>
+          <li><a href="title.html">Title</a></li>
+          <li><a href="track.html">Non-Title Tracks</a></li>
+        </ul>
+      </div>
+    </nav>
+</header>
+
+<body>
+<div id="cursor-bg">&nbsp;</div>
+<div id="progress"><span>&nbsp;</span></div>
+<script type="text/javascript" src="./vendor/gsap/gsap.min.js"></script>
+<script type="text/javascript" src="./js/cursor.js"></script>
+<script type="text/javascript" src="./js/script.js"></script>
+<script type="text/javascript" src="./js/accordion.js"></script>
+
+<h1 class="blind">Accordion</h1>
+<div id="accordion" class="accordion">
+    <div class="view">
+        <div class="view-item">
+            <div class="menu-collapse"><span><img src="./images/cinnamon.png"></span></div>
+            <div class="menu-view">
+                <span class="desc"><a hre><img src="./images/1.jpg"></a></span>
+            </div>
+            <div class="image-wrap">
+                <img src="./images/1.jpg">
+            </div>
+        </div>
+        <div class="view-item">
+            <div class="menu-collapse"><span><img src="./images/honey.png"></span></div>
+            <div class="menu-view">
+              <span class="desc"><img src="./images/2.jpg"></span>
+            </div>
+            <div class="image-wrap">
+                <img src="./images/2.jpg">
+            </div>
+        </div>
+        <div class="view-item">
+            <div class="menu-collapse"><span><img src="./images/mint.png"></span></div>
+            <div class="menu-view">
+              <span class="desc"><img src="./images/3.jpg"></span>
+            </span>
+            </div>
+            <div class="image-wrap">
+              <img src="./images/3.jpg">
+            </div>
+        </div>
+        <div class="view-item">
+          <div class="menu-collapse"><span><img src="./images/chemistry.png"></span></div>
+          <div class="menu-view">
+            <span class="desc"><img src="./images/4.jpeg"></span>
+          </span>
+          </div>
+          <div class="image-wrap">
+            <img src="./images/4.jpeg">
+          </div>
+      </div>
+    </div>
+</div>
+</body>
+</html>
